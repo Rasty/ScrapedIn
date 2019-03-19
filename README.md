@@ -3,6 +3,10 @@ tool to scrape LinkedIn
 
 this tool assists in performing reconnaissance using the LinkedIn.com website/API. Provide a search string just as you would on the original website and let ScrapedIn do all the dirty work. Output is stored as an XLSX file, however it is intended to be used with Google Spreadsheets. After importing the XLSX into Google Spreadsheets there will be a "dataset" worksheet and a "report" worksheet.
 
+first step is to install the  module  XlsxWriter and  thready
+sudo pip2 install xlsxwriter
+sudo pip2 install thready
+
 ## dataset
 - first name
 - last name
